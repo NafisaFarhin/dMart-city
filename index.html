@@ -1,0 +1,513 @@
+<!--1st Start-->
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' type='text/css' media='all'/>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.p-theme-city{
+      color: black!important;
+      display: block;
+	    padding: 14px!important;
+	    font-size: 18px!important;
+	    margin: 15px!important;
+      text-align: center!important;
+      background-color: #f9f9f9;
+  }
+    a:link {
+    color: black!important;
+    background-color: #f9f9f9;
+    text-decoration: none;
+  }
+#myInput {
+ /* background-image: url('https://img.alicdn.com/tfs/TB1_ByQBeH2gK0jSZJnXXaT1FXa-512-512.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;*/
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+/*  margin-bottom: 12px;*/
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
+}
+
+#myUL {
+  list-style-type: none!important;
+padding: 0!important;
+
+  overflow: auto;
+  max-height: 300px;
+/*  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;*/
+      /*box-shadow: -1px 15px 18px -9px #94949478;*/
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f9f9f9;
+  padding: 12px;
+  text-decoration: none!important;
+  font-size: 18px;
+  color: black!important;
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.searchbar{
+margin: 0 auto;
+width: 70%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .searchbar{
+    margin: 0 auto;
+    width: 90%;
+
+    }
+}
+
+.lzd-act-richtext ol, .lzd-act-richtext ul {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+lzd-act-richtext a {
+    text-decoration: none!important; 
+    color: black!important; 
+}
+
+
+</style>
+<!--1st End-->
+<!--2nd Start-->
+<div class="container">
+	<p class="p-theme-city">
+    <a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/outside-dhaka-city?hybrid=1">
+      <b>Available City for dMart   >></b>
+    </a>
+  </p>
+</div>
+
+<div>
+<h2 style="text-align: center;">Select Your City</h2>
+
+<div class="container">
+<div class="searchbar">
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="Type in a name">
+
+<ul id="myUL">
+  <li>
+    <a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/bagerhat-dmart?hybrid=1">Bagerhat 
+      <span style="display:none;">Bagerhat</span>
+      <span style="display:none;">Bager</span>
+      <span style="display:none;">Bagrhat</span>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/barishal-dmart?hybrid=1">Barishal
+      <span style="display:none;">Borishal</span>
+      <span style="display:none;">Barisal</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/bogura-dmart?hybrid=1">Bogura
+    <span style="display:none;">Bogra</span>
+      <span style="display:none;">Bagura</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Barguna-dmart?hybrid=1">Barguna
+    <span style="display:none;">Bargu</span>
+      <span style="display:none;">Borguna</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Bhola-dmart?hybrid=1">Bhola
+    <span style="display:none;">Bhol</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/brahamanbaria-dmart?hybrid=1">Brahamanbaria
+    <span style="display:none;">Brahaman</span>
+      <span style="display:none;">Bbaria</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/chandpur-dmart?hybrid=1">Chandpur
+    <span style="display:none;">Chan</span>
+      <span style="display:none;">Chandpr</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Chuadanga-dmart?hybrid=1">Chuadanga
+    <span style="display:none;">Chuadan</span>
+      <span style="display:none;">Chuanga</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/chapai-nawabganj-dmart?hybrid=1">Chapai Nawabganj
+    <span style="display:none;">Chapai </span>
+      <span style="display:none;">ChapaiNawabganj</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/chattogram-dmart?hybrid=1">Chattogram
+    <span style="display:none;">Chottogram</span>
+      <span style="display:none;">Ctg</span>
+       <span style="display:none;">Chittagong</span>
+    </a>
+   </li>
+<!--2rd end-->
+<!--3rd start-->
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/coxsbazar-dmart?hybrid=1">Coxsbazar
+      <span style="display:none;">Coxs</span>
+      <span style="display:none;">Coxsobazar</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/cumilla-dmart?hybrid=1">Cumilla
+      <span style="display:none;">Comilla</span>
+      <span style="display:none;">Cumi</span>
+       <span style="display:none;">Com</span>
+     </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/live?hybrid=1">Dhaka
+    <span style="display:none;">Dhaaka</span>
+      <span style="display:none;">Dhak</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/dinajpur-dmart?hybrid=1">Dinajpur
+    <span style="display:none;">Dinaj</span>
+      <span style="display:none;">Danajpur</span>
+       <span style="display:none;">Din</span>
+    </a>
+  </li>
+
+   <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/faridpur-dmart?hybrid=1">Faridpur
+    <span style="display:none;">Foridpur</span>
+      <span style="display:none;">Farid</span>
+       <span style="display:none;">Fardpur</span>
+    </a>
+  </li> 
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/feni-dmart?hybrid=1">Feni
+    <span style="display:none;">Fen</span>
+      <span style="display:none;">Fani</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/gaibandha-dmart?hybrid=1">Gaibandha
+    <span style="display:none;">Gaiba</span>
+      <span style="display:none;">Gaiband</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/gazipur-dmart?hybrid=1">Gazipur
+    <span style="display:none;">Gazi</span>
+      <span style="display:none;">Gazpur</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/gopalganj-dmart?hybrid=1">Gopalganj
+    <span style="display:none;">Gopal</span>
+      <span style="display:none;">Gopalga</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/habiganj-dmart?hybrid=1">Habiganj
+    <span style="display:none;">Gopal</span>
+      <span style="display:none;">Gopalga</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/jashore-dmart?hybrid=1">Jashore
+    <span style="display:none;">Jasore</span>
+      <span style="display:none;">Jesore</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Joypurhat-dmart?hybrid=1">Joypurhat
+    <span style="display:none;">Joypat</span>
+      <span style="display:none;">Joypurt</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/jamalpur-dmart?hybrid=1">Jamalpur
+    <span style="display:none;">Jamalp</span>
+      <span style="display:none;">Jmalpur</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/jhenaidah-dmart?hybrid=1">Jhenaidah
+    <span style="display:none;">Jhinaadah</span>
+      <span style="display:none;">Jinadah</span>
+       <span style="display:none;">Jhendah</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/keraniganj-dmart?hybrid=1">Keraniganj
+    <span style="display:none;">Karaniganj</span>
+      <span style="display:none;">Ker</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/khulna-dmart?hybrid=1">Khulna
+    <span style="display:none;">Kulna</span>
+      <span style="display:none;">Khul</span>
+       </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/kishoregonj-dmart?hybrid=1">Kishoregonj
+    <span style="display:none;">Kisoregonj</span>
+      <span style="display:none;">Kishoreganj</span>
+       <span style="display:none;">Kis</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Kurigram-city-dmart?hybrid=1">Kurigram
+    <span style="display:none;">Krigram</span>
+      <span style="display:none;">Kurigr</span>
+       <span style="display:none;">Kuri</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/kushtia-dmart?hybrid=1">Kushtia
+    <span style="display:none;">kustia</span>
+      <span style="display:none;">kus</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/lakshimpur-dmart?hybrid=1">Lakshimpur
+    <span style="display:none;">kustia</span>
+      <span style="display:none;">kus</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Lalmonirhat-dmart?hybrid=1">Lalmonirhat
+    <span style="display:none;">Lalmoni</span>
+      <span style="display:none;">Lalmonhat</span>
+    </a>
+  </li>
+  
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/madaripur-dmart?hybrid=1">Madaripur
+    <span style="display:none;">Madar</span>
+      <span style="display:none;">Madarpur</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/magura-dmart?hybrid=1">Magura
+    <span style="display:none;">Magu</span>
+      <span style="display:none;">Magra</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/manikganj-dmart?hybrid=1">Manikganj
+    <span style="display:none;">Manik</span>
+      <span style="display:none;">Monikganj</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/moulvibazar-dmart?hybrid=1">Moulvibazar
+    <span style="display:none;">Moulobhibazar</span>
+      <span style="display:none;">Mou</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Meherpur-dmart?hybrid=1">Meherpur
+    <span style="display:none;">Meherp</span>
+      <span style="display:none;">Merpur</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/mymensingh-dmart?hybrid=1">Mymensingh
+    <span style="display:none;">Mymansing</span>
+      <span style="display:none;">Mymen</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Munsigonj-dmart?hybrid=1">Munsigonj
+    <span style="display:none;">Munsigo</span>
+      <span style="display:none;">Munsonj</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/naogaon-dmart?hybrid=1">Naogaon
+    <span style="display:none;">Nao</span>
+      <span style="display:none;">Naoga</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/narayanganj-dmart?hybrid=1">Narayanganj
+    <span style="display:none;">Naraanganj</span>
+      <span style="display:none;">Nara</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/narsingdi-dmart?hybrid=1">Narsingdi
+    <span style="display:none;">Narshindi</span>
+      <span style="display:none;">Nars</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Norail-dmart?hybrid=1">Norail
+    <span style="display:none;">Nor</span>
+      <span style="display:none;">Noail</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/noakhali-dmart?hybrid=1">Noakhali
+    <span style="display:none;">Noa</span>
+      <span style="display:none;">Newkali</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/pabna-dmart?hybrid=1">Pabna
+    <span style="display:none;">Pab</span>
+      <span style="display:none;">Pobna</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Pirojpur-dmart?hybrid=1">Pirojpur
+    <span style="display:none;">Piroj</span>
+      <span style="display:none;">Phirojpur</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Panchagarh-dmart?hybrid=1">Panchagarh
+    <span style="display:none;">Panchag</span>
+      <span style="display:none;">Pancarh</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Patuakhali-dmart?hybrid=1">Patuakhali
+    <span style="display:none;">Patuaali</span>
+      <span style="display:none;">Patuak</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/rajshahi-dmart?hybrid=1">Rajshahi
+    <span style="display:none;">Raj</span>
+      <span style="display:none;">Rajsahi</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Rajbari-dmart?hybrid=1">Rajbari
+    <span style="display:none;">Raj</span>
+      <span style="display:none;">Rajba</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/rangpur-dmart?hybrid=1">Rangpur
+    <span style="display:none;">Rongpur</span>
+      <span style="display:none;">Rangr</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/saidpur-city-dmart?hybrid=1">Saidpur
+    <span style="display:none;">Saidr</span>
+      <span style="display:none;">Saidpr</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Sunamganj-dmart?hybrid=1">Sunamganj
+    <span style="display:none;">Sunganj</span>
+      <span style="display:none;">Sunamga</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Shariatpur-dmart?hybrid=1">Shariatpur
+    <span style="display:none;">Sharir</span>
+      <span style="display:none;">Sharipur</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/Sherpur-dmart?hybrid=1">Sherpur
+    <span style="display:none;">Shpur</span>
+      <span style="display:none;">Sherp</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/savar-dmart?hybrid=1">Savar
+    <span style="display:none;">Sav</span>
+      <span style="display:none;">var</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/satkhira-dmart?hybrid=1">Satkhira
+    <span style="display:none;">Satk</span>
+      <span style="display:none;">Satkra</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/sirajganj-dmart?hybrid=1">Sirajganj
+    <span style="display:none;">Siraj</span>
+      <span style="display:none;">Shirajganj</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/sylhet-dmart?hybrid=1">Sylhet
+    <span style="display:none;">Shylet</span>
+      <span style="display:none;">Sylet</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/tangail-dmart?hybrid=1">Tangail
+    <span style="display:none;">Tang</span>
+      <span style="display:none;">Tongail</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/thakurgaon-dmart?hybrid=1">Thakurgaon
+    <span style="display:none;">Thakaon</span>
+      <span style="display:none;">Thurgaon</span>
+    </a>
+  </li>
+
+  <li><a href="https://www.daraz.com.bd/wow/camp/daraz/megascenario/bd/dMart/tongi-dmart?hybrid=1">Tongi
+    <span style="display:none;">Ton</span>
+      <span style="display:none;">Tangi</span>
+    </a>
+  </li>
+
+</ul>
+
+</div>
+
+</div>
+</div>
+<!--5rd End-->
+
+<!--6th start-->
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+</script>
+<!--6th End-->
